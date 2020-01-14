@@ -474,7 +474,7 @@ a.privacy-policy:hover {
 @media (min-width: 992px) {
     #about-me {
         background-image: url('../images/norman.jpg');
-        background-position: center;
+        background-position: right bottom;
         background-size: cover;
         width: 100vw;
     }
