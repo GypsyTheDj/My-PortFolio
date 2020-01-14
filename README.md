@@ -5,11 +5,7 @@ This is my portfolio website to present to prospective employers. The portfolio 
 
 
 ## Demo
-<<<<<<< HEAD
 A live demo can be found [here](https://github.com/GypsyTheDj).
-=======
-A live demo can be found [here](#).
->>>>>>> 3eec0ab225d7b8f5253ffdaff3c9b399647b635f
 
 
 ## UX
