@@ -1,0 +1,491 @@
+body {
+    background-color: #fdfdfd;
+    font-family: 'Nobile', sans-serif;
+}
+
+/*----------NAVBAR---------*/
+
+.navbar {
+    background: none;
+    border-color: transparent;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+}
+
+.navbar .navbar-collapse {
+    text-align: right;
+    border-top: 1px solid transparent;
+    overflow-x: hidden;
+}
+
+.navbar-nav li a {
+    padding: 20px 25px 15px 25px;
+    color: transparent;
+}
+
+.navbar-fixed-top .container {
+    text-align: right;
+    margin-right: 1%;
+    margin-top: 1%;
+}
+
+.language {
+    display: inline-block;
+    padding-right: 20px;
+    line-height: 44px;
+}
+
+.language:hover {
+    color: #564F6F!important;
+    text-decoration: none;
+}
+
+a {
+    background-color: #E4E4E4;
+    color: #888888;
+    font-size: 1.12em;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+}
+
+.navbar-default .navbar-nav li a:hover {
+    color: #564F6F;
+}
+
+.navbar-right {
+    float: right!important;
+}
+
+@media (max-width: 5000px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,
+    .navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in {
+        display: block !important;
+    }
+}
+
+/*----------JUMBOTRON----------*/
+
+#landing-view {
+    background-attachment: fixed;
+    background-image: url('../images/landing.jpg');
+    background-position: bottom;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    margin-bottom: 0px;
+    z-index: 1;
+}
+
+.top {
+    padding-left: 12px;
+    margin-top: 12%;
+}
+
+h1 {
+    padding-top: 5%;
+    font-size: 5.5em;
+}
+
+.jumbotron p {
+    font-size: 2em;
+}
+
+
+/*------------ABOUT----------*/
+
+.about-row {
+    padding-bottom: 15%;
+    font-size: 1.75em;
+    line-height: 2;
+}
+
+h2 {
+    margin-left: 15px;
+    margin-top: 15%;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+}
+
+.about-row .about-p {
+    font-size: .8em;
+    margin: 40px 0px 40px 0px;
+}
+
+/*------------WORK----------*/
+
+#work {
+    background-attachment: fixed;
+    background-image: url('../images/desk.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    padding-bottom: 50px;
+    background-repeat: no-repeat;
+    position: relative;
+    font-weight: 300;
+    margin-bottom: 0px;
+}
+
+.card-body .row {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.project-cards {
+    display: inline-table;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.col-xs-6 {
+    align-items: center;
+}
+
+.card {
+    background-color: #fdfdfd;
+    border-radius: 2.5%;
+    width: 18em;
+    height: 18em;
+    top: 50%;
+    left: 50%;
+    margin: 15% auto;
+    padding: 15px;
+    align-items: center;
+    z-index: 2;
+    display: block;
+    opacity: 0.75;
+    transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+}
+
+.card:hover {
+    opacity: 1;
+}
+
+.card-title {
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+.card-subtitle {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.card-body .card-text {
+    font-size: 1.07em;
+}
+
+.desktop-icon {
+    padding: 20px 0;
+    border-radius: 50%;
+    font-size: 34px;
+    width: 54px;
+    height: 54px;
+    line-height: 18px;
+}
+
+.github-icon {
+    padding: 20px 0;
+    border-radius: 50%;
+    font-size: 40px;
+    width: 54px;
+    height: 54px;
+    line-height: 15px;
+}
+
+/*--------SKILLS-----------*/
+
+.skills {
+    position: relative;
+    top: 12%;
+    padding-bottom: 96px;
+}
+
+.skills-inner {
+    margin-bottom: 10%;
+}
+
+@media (min-width: 768px) {
+    .skills-inner {
+        width: 738px;
+    }
+}
+
+.skill-circle {
+    display: inline-table;
+    margin-bottom: 55px;
+    padding-left: 6%;
+}
+
+.arc1 {
+    width: 160px;
+    height: 160px;
+    background: #564F6F;
+    -webkit-transform-origin: -51% 91%;
+    margin-left: -35px;
+    margin-top: -53px;
+    -webkit-transform: translate(-64px, 50px);
+    -moz-transform: translate(-64px, 50px);
+    -o-transform: translate(-64px, 50px);
+}
+
+.arc2 {
+    margin-left: -115px;
+    width: 193px;
+    height: 177px;
+    background: #564F6F;
+    -webkit-transform: skew(55deg, 0deg);
+    -moz-transform: skew(55deg, 0deg);
+    -o-transform: skew(55deg, 0deg);
+    position: absolute;
+    -webkit-transition: all .5s linear;
+}
+
+#html-load2 {
+    margin-top: -137px;
+}
+
+#css-load2 {
+    margin-top: -150px;
+}
+
+#js-load2 {
+    margin-top: -165px;
+}
+
+#py-load2 {
+    margin-top: -145px;
+}
+
+#dj-load2 {
+    margin-top: -109px;
+}
+
+.arc-wrapper {
+    width: 120px;
+    height: 120px;
+    border-radius: 150px;
+    background: #d3d3d3;
+    overflow: hidden;
+    left: 0px;
+    top: 50px;
+    position: absolute;
+}
+
+.arc-overlay {
+    width: 110px;
+    height: 110px;
+    background-color: #fafafa;
+    padding-left: 20px;
+    padding-top: 6px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    line-height: 100px;
+    font-weight: 400;
+    text-shadow: 0 1px 0 #fff;
+    font-size: 22px;
+    border-radius: 100px;
+    position: absolute;
+    z-index: 5;
+    top: 55px;
+    left: 5px;
+}
+
+.arc-container {
+    position: relative;
+    height: 130px;
+    width: 130px;
+}
+
+.html {
+    padding-left: 5px;
+}
+
+.css {
+    padding-left: 11px;
+}
+
+.js {
+    padding-left: 20px;
+}
+
+.py {
+    padding-left: 17px;
+}
+
+.sql {
+    padding-top: 1px;
+    padding-left: 13px;
+}
+
+/*-------CONTACT-----------*/
+
+#contact {
+    background-attachment: fixed;
+    background-image: url('../images/computer.jpg');
+    background-position: left;
+    background-size: cover;
+    padding-bottom: 100px;
+    padding-top: 42px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.contact-form {
+    position: relative;
+    top: 6%;
+}
+
+#contact-head {
+    margin: 30px -11px 25px 0px;
+}
+
+.contact {
+    margin: 15px 0px 15px 0px;
+}
+
+/*-----------FOOTER----------*/
+
+footer {
+    border-color: transparent;
+    text-align: center;
+}
+
+.foot {
+    margin-bottom: 20px;
+}
+
+a {
+    padding: 5px 18px 5px 18px;
+    background-color: transparent;
+}
+
+.alignment {
+    line-height: 16px;
+}
+
+i {
+    display: inline-block;
+    box-shadow: 0px 0px 2px #888;
+    background-color: #C3C3C3;
+    color: #8F8F8F;
+    width: 55px;
+    height: 55px;
+    padding: 20px 0;
+    border-radius: 50%;
+    font-size: 38px;
+    text-align: center;
+    vertical-align: middle;
+    transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    margin-top: 0;
+    margin-bottom: 2.5px;
+
+}
+
+i:hover {
+    color: #564F6F;
+
+}
+
+/* ----------Contact Form  Modal --------*/
+
+.modal-body {
+    font-size: 1.15em;
+}
+
+.btn-default {
+    background-color: #ccc;
+}
+
+.privacy-policy {
+    color: #424242;
+    font-family: 'Nobile', sans-serif;
+    padding: 0;
+}
+
+a.privacy-policy {
+    font-size: inherit;
+}
+
+a.privacy-policy:hover {
+    color: #564F6F;
+    text-decoration: none;
+}
+
+/*-----------MEDIA QUERIES----------*/
+
+@media (max-width: 768px) and (min-width: 375px) {
+    .scroll-work {
+        width: 80%;
+    }
+    .fa-chevron-down {
+        margin-top: 52vh;
+    }
+}
+
+@media (max-width: 992px) {
+    #contact, #work, #landing-view{
+        background-attachment: scroll;
+    }
+    #landing-view {
+        height: 135vh;
+    }
+}
+
+@media (min-width: 992px) {
+    #about-me {
+        background-image: url('../images/norman.jpg');
+        background-position: center;
+        background-size: cover;
+        width: 100vw;
+    }
+    #skills {
+        background-image: url('../images/skills.jpg');
+        background-position: center;
+        background-size: cover;
+        width: 100vw;
+    }
+    .fa-chevron-down {
+        margin-top: 32vh;
+    }
+}
+
