@@ -101,7 +101,7 @@ h2 {
 
 .card {
   margin: 10px auto;
-  height: 300px;
+  min-height: 300px;
   max-width: 300px;
   transition: all 0.3s ease-in;
   -moz-transition: all 0.3s ease-in;
@@ -261,8 +261,9 @@ h2 {
 }
 
 footer .icon {
-  margin: 0 20px;
+  margin: 10px;
   display: block;
+  flex: 0 0 50px;
   width: 50px;
   height: 50px;
   line-height: 50px;
