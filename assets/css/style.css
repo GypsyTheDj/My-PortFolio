@@ -1,6 +1,7 @@
 body {
   background-color: #fdfdfd;
   font-family: "Nobile", sans-serif;
+  scroll-behavior: smooth;
   overflow-x: hidden;
 }
 
@@ -12,11 +13,7 @@ body {
   height: 45px;
   line-height: 45px;
   text-transform: uppercase;
-  text-shadow: 2px 2px #fff;
-}
-
-.container {
-  overflow: hidden;
+  text-shadow: 2px 0px #fff;
 }
 
 img {
@@ -281,7 +278,8 @@ footer .icon:hover {
 
 @media (max-width: 768px) {
   .norman {
-    display: none;
+    height: 400px;
+    width: 300px;
   }
 }
 
