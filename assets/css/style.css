@@ -1,279 +1,126 @@
 body {
   background-color: #fdfdfd;
   font-family: "Nobile", sans-serif;
+  overflow-x: hidden;
 }
 
-.norman {
-  display: none;
+.logo {
+  color: #343a40;
+  font-size: 1.3em;
+  font-weight: bolder;
+  letter-spacing: 5px;
+  height: 45px;
+  line-height: 45px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px #fff;
 }
 
-@media (min-width: 992px) {
-  .norman {
-    display: block;
-    position: absolute;
-    top: 8%;
-    right: 8%;
-    transform: translateX(-8%);
-    width: 300px;
-    height: 400px;
-    transition: 0.05s linear;
-    z-index: 11;
-  }
-
-  .norman img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-
-  .norman.break {
-    transform: translate(-8%, 0);
-  }
+.container {
+  overflow: hidden;
 }
 
-@media (min-width: 1200px) {
-  .norman {
-    top: 13%;
-    right: 13%;
-    width: 400px;
-    height: 500px;
-    transform: translateX(-10%);
-  }
-
-  .norman.break {
-    transform: translate(-10%, 0);
-  }
-}
-
-@media (min-width: 1500px) {
-  .norman {
-    top: 15%;
-    right: 15%;
-    height: 450px;
-    width: 550px;
-    transform: translateX(-15%);
-  }
-
-  .norman.break {
-    transform: translate(-15%, 0);
-  }
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 /*----------NAVBAR---------*/
 
-.navbar {
-  background: none;
-  border-color: transparent;
-  letter-spacing: 7px;
-  text-transform: uppercase;
+.custom-nav {
+  z-index: 100;
 }
 
-.navbar .navbar-collapse {
-  text-align: right;
-  border-top: 1px solid transparent;
-  overflow-x: hidden;
+.custom-nav-items a {
+  margin: 10px 0 !important;
 }
 
-.navbar-nav li a {
-  padding: 20px 25px 15px 25px;
-  color: transparent;
+.custom-nav-items a:hover {
+  color: white !important;
 }
 
-.navbar-fixed-top .container {
-  text-align: right;
-  margin-right: 1%;
-  margin-top: 1%;
+.jumbotron {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.language {
-  display: inline-block;
-  padding-right: 20px;
-  line-height: 44px;
+.jumbotron .name {
+  font-size: 4em;
+  letter-spacing: 3px;
+  font-weight: normal;
 }
 
-.language:hover {
-  color: #564f6f !important;
-  text-decoration: none;
-}
-
-a {
-  background-color: #e4e4e4;
-  color: #888888;
-  font-size: 1.12em;
-  padding-left: 10px;
-  padding-right: 10px;
-  transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-}
-
-.navbar-default .navbar-nav li a:hover {
-  color: #564f6f;
-}
-
-.navbar-right {
-  float: right !important;
-}
-
-@media (max-width: 5000px) {
-  .navbar-header {
-    float: none;
-  }
-  .navbar-left,
-  .navbar-right {
-    float: none !important;
-  }
-  .navbar-toggle {
-    display: block;
-  }
-  .navbar-collapse {
-    border-top: 1px solid transparent;
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
-  }
-  .navbar-fixed-top {
-    top: 0;
-    border-width: 0 0 1px;
-  }
-  .navbar-collapse.collapse {
-    display: none !important;
-  }
-  .navbar-nav {
-    float: none !important;
-    margin-top: 7.5px;
-  }
-  .navbar-nav > li {
-    float: none;
-  }
-  .navbar-nav > li > a {
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-  .collapse.in {
-    display: block !important;
-  }
+.jumbotron .title {
+  font-size: 2em;
 }
 
 /*----------JUMBOTRON----------*/
 
-#landing-view {
-  background-attachment: fixed;
-  background-image: url("../images/landing.jpg");
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: cover;
-  height: 100vh;
+#header {
   width: 100vw;
-  margin-bottom: 0px;
-  z-index: 1;
-}
-
-.top {
-  padding-left: 12px;
-  margin-top: 12%;
-}
-
-h1 {
-  padding-top: 5%;
-  font-size: 5.5em;
-}
-
-.jumbotron p {
-  font-size: 2em;
+  height: 100vh;
+  background-image: url("../images/landing.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 /*------------ABOUT----------*/
 
-.about-row {
-  padding-bottom: 15%;
-  font-size: 1.75em;
+.about {
+  font-size: 1.3em;
   line-height: 2;
 }
 
 h2 {
-  margin-left: 15px;
-  margin-top: 15%;
-  letter-spacing: 7px;
+  letter-spacing: 5px;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
-.about-row .about-p {
+.about p {
   font-size: 0.8em;
-  margin: 40px 0px 40px 0px;
+  margin: 20px 0px;
 }
 
 /*------------WORK----------*/
 
 #work {
-  background-attachment: fixed;
+  width: 100vw;
+  font-weight: 300;
+  position: relative;
   background-image: url("../images/desk.jpg");
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  width: 100vw;
   padding-bottom: 50px;
-  position: relative;
-  font-weight: 300;
-  margin-bottom: 0px;
-}
-
-.card-body .row {
-  text-align: center;
-  padding-top: 10px;
-}
-
-.project-cards {
-  display: inline-table;
-  justify-content: center;
-  align-items: center;
-}
-
-.col-xs-6 {
-  align-items: center;
 }
 
 .card {
-  background-color: #fdfdfd;
-  border-radius: 2.5%;
-  width: 18em;
-  height: 18em;
-  top: 50%;
-  left: 50%;
-  margin: 15% auto;
-  padding: 15px;
-  align-items: center;
-  z-index: 2;
-  display: block;
-  opacity: 0.75;
+  margin: 10px auto;
+  min-height: 300px;
+  max-width: 300px;
   transition: all 0.3s ease-in;
   -moz-transition: all 0.3s ease-in;
   -webkit-transition: all 0.3s ease-in;
 }
 
-.card:hover {
-  opacity: 1;
+.card .card-subtitle {
+  font-size: 1.2em;
+  line-height: 1.6em;
 }
 
-.card-title {
-  font-size: 1.25em;
-  font-weight: bold;
+.card .card-text {
+  font-size: 0.9em;
+  line-height: 1.6em;
 }
 
-.card-subtitle {
-  font-size: 1.1em;
-  font-weight: bold;
-}
-
-.card-body .card-text {
-  font-size: 1.07em;
-}
-
-.desktop-icon {
-  padding: 20px 0;
-  border-radius: 50%;
-  font-size: 34px;
-  width: 54px;
-  height: 54px;
-  line-height: 18px;
+.card .card-text {
+  font-size: 0.9em;
+  line-height: 1.6em;
 }
 
 .github-icon {
@@ -284,30 +131,9 @@ h2 {
   height: 54px;
   line-height: 15px;
 }
+*/
 
 /*--------SKILLS-----------*/
-
-.skills {
-  position: relative;
-  top: 12%;
-  padding-bottom: 96px;
-}
-
-.skills-inner {
-  margin-bottom: 10%;
-}
-
-@media (min-width: 768px) {
-  .skills-inner {
-    width: 738px;
-  }
-}
-
-.skill-circle {
-  display: inline-table;
-  margin-bottom: 55px;
-  padding-left: 6%;
-}
 
 .arc1 {
   width: 160px;
@@ -354,39 +180,37 @@ h2 {
 }
 
 .arc-wrapper {
-  width: 120px;
-  height: 120px;
-  border-radius: 150px;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  bottom: 0%;
+  right: 0%;
   background: #d3d3d3;
   overflow: hidden;
-  left: 0px;
-  top: 50px;
-  position: absolute;
 }
 
 .arc-overlay {
   width: 110px;
   height: 110px;
-  background-color: #fafafa;
-  padding-left: 20px;
-  padding-top: 6px;
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  line-height: 100px;
-  font-weight: 400;
-  text-shadow: 0 1px 0 #fff;
-  font-size: 22px;
-  border-radius: 100px;
   position: absolute;
-  z-index: 5;
-  top: 55px;
-  left: 5px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  line-height: 110px;
+  background-color: #fafafa;
+  border-radius: 50%;
+  z-index: 1;
 }
 
 .arc-container {
+  margin: 20px auto;
   position: relative;
-  height: 130px;
-  width: 130px;
+  height: 120px;
+  width: 120px;
+  background: red;
+  border-radius: 50%;
+  overflow: hidden;
 }
 
 .html {
@@ -413,71 +237,11 @@ h2 {
 /*-------CONTACT-----------*/
 
 #contact {
-  background-attachment: fixed;
   background-image: url("../images/computer.jpg");
+  background-attachment: fixed;
   background-repeat: no-repeat;
-  background-position: left;
+  background-position: center;
   background-size: cover;
-  padding-bottom: 100px;
-  padding-top: 42px;
-  text-align: left;
-  margin-bottom: 30px;
-}
-
-.contact-form {
-  position: relative;
-  top: 6%;
-}
-
-#contact-head {
-  margin: 30px -11px 25px 0px;
-}
-
-.contact {
-  margin: 15px 0px 15px 0px;
-}
-
-/*-----------FOOTER----------*/
-
-footer {
-  border-color: transparent;
-  text-align: center;
-}
-
-.foot {
-  margin-bottom: 20px;
-}
-
-a {
-  padding: 5px 18px 5px 18px;
-  background-color: transparent;
-}
-
-.alignment {
-  line-height: 16px;
-}
-
-i {
-  display: inline-block;
-  box-shadow: 0px 0px 2px #888;
-  background-color: #c3c3c3;
-  color: #8f8f8f;
-  width: 55px;
-  height: 55px;
-  padding: 20px 0;
-  border-radius: 50%;
-  font-size: 38px;
-  text-align: center;
-  vertical-align: middle;
-  transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-  margin-top: 0;
-  margin-bottom: 2.5px;
-}
-
-i:hover {
-  color: #564f6f;
 }
 
 /* ----------Contact Form  Modal --------*/
@@ -496,55 +260,35 @@ i:hover {
   padding: 0;
 }
 
-a.privacy-policy {
-  font-size: inherit;
+footer .icon {
+  margin: 10px;
+  display: block;
+  flex: 0 0 50px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 1.3em;
+  border-radius: 50%;
+  border: solid 1px #ccc;
 }
 
-a.privacy-policy:hover {
-  color: #564f6f;
-  text-decoration: none;
+footer .icon:hover {
+  color: #555 !important;
 }
 
 /*-----------MEDIA QUERIES----------*/
 
-@media (max-width: 768px) and (min-width: 375px) {
-  .scroll-work {
-    width: 80%;
-  }
-  .fa-chevron-down {
-    margin-top: 52vh;
+@media (max-width: 768px) {
+  .norman {
+    display: none;
   }
 }
 
 @media (max-width: 992px) {
-  #contact,
   #work,
-  #landing-view {
+  #contact,
+  #header {
     background-attachment: scroll;
-  }
-  #landing-view {
-    height: 135vh;
-  }
-}
-
-@media (min-width: 992px) {
-  #about-me {
-    width: 100vw;
-  }
-  #skills {
-    background-image: url("../images/skills.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 100vw;
-  }
-  .fa-chevron-down {
-    margin-top: 32vh;
-  }
-}
-
-@media (min-width: 1500px) {
-  #about-me {
-    background-position: 900px 0;
   }
 }
