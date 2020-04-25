@@ -157,7 +157,7 @@ h2 {
 }
 
 #html-load2 {
-  margin-top: -137px;
+  margin-top: -160px;
 }
 
 #css-load2 {
@@ -170,10 +170,6 @@ h2 {
 
 #py-load2 {
   margin-top: -145px;
-}
-
-#dj-load2 {
-  margin-top: -109px;
 }
 
 .arc-wrapper {
@@ -208,27 +204,6 @@ h2 {
   background: red;
   border-radius: 50%;
   overflow: hidden;
-}
-
-.html {
-  padding-left: 5px;
-}
-
-.css {
-  padding-left: 11px;
-}
-
-.js {
-  padding-left: 20px;
-}
-
-.py {
-  padding-left: 17px;
-}
-
-.sql {
-  padding-top: 1px;
-  padding-left: 13px;
 }
 
 /*-------CONTACT-----------*/
