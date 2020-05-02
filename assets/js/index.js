@@ -2,7 +2,7 @@
 // Modified from a tutorial found at
 // https://www.abeautifulsite.net/smoothly-scroll-to-an-element-without-a-jquery-plugin-2
 
-$('a[href^="#!"]').on("click", function (event) {
+$('a[href^="#"]').on("click", function (event) {
   var target = $(this.getAttribute("href"));
 
   if (target.length) {
@@ -15,3 +15,16 @@ $('a[href^="#!"]').on("click", function (event) {
     );
   }
 });
+
+const navContent = document.getElementById("navbarToggleExternalContent");
+const navLinks = document.querySelectorAll(
+  "#navbarToggleExternalContent a[href^='#']"
+);
+
+for (let i = 0; i < navLinks.length; i++) {
+  const navLink = navLinks[i];
+
+  navLink.onclick = () => {
+    navContent.classList.remove("show");
+  };
+}
