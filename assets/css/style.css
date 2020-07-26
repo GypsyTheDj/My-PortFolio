@@ -36,6 +36,8 @@ img {
   color: white !important;
 }
 
+/*----------JUMBOTRON----------*/
+
 .jumbotron {
   display: flex;
   align-items: center;
@@ -51,8 +53,6 @@ img {
 .jumbotron .title {
   font-size: 2em;
 }
-
-/*----------JUMBOTRON----------*/
 
 #header {
   width: 100vw;
