@@ -62,7 +62,6 @@ The progress circles from the skills section are modeled after the following Sta
 
 The media query for the collapsed navbar regardless of viewport width was taken from this [site](https://www.codeply.com/go/iaM1zcNsQB/bootstrap-navbar-always-collapsed).
 
-
 ## :sparkling_heart: Support the project
 
 I open-source almost everything I can, and I try to reply to everyone needing help using these projects. Obviously,
