@@ -70,7 +70,7 @@ this takes time. You can use this service for free.
 
 However, if you are using this project and happy with it or just want to encourage me to continue creating stuff, there are few ways you can do it :-
 
-- Giving proper credit when you use github-readme-stats on your readme, linking back to it :D
+- Giving proper credits when you using it.
 - Starring and sharing the project :rocket:
 - [Buy me Coffee 😉](https://www.paypal.com/donate?hosted_button_id=BM99ZF52TE97E) - You can make one-time donations via PayPal. I'll probably buy coffee :coffee:
 
