@@ -61,3 +61,21 @@ The scrollSpy delay JavaScript function was found through this tutorial [here](h
 The progress circles from the skills section are modeled after the following Stack Overflow [example](https://stackoverflow.com/questions/14222138/css-progress-circle). They were significantly modified to fit the styling, sizing, and progress for each skill.
 
 The media query for the collapsed navbar regardless of viewport width was taken from this [site](https://www.codeply.com/go/iaM1zcNsQB/bootstrap-navbar-always-collapsed).
+
+
+## :sparkling_heart: Support the project
+
+I open-source almost everything I can, and I try to reply to everyone needing help using these projects. Obviously,
+this takes time. You can use this service for free.
+
+However, if you are using this project and happy with it or just want to encourage me to continue creating stuff, there are few ways you can do it :-
+
+- Giving proper credit when you use github-readme-stats on your readme, linking back to it :D
+- Starring and sharing the project :rocket:
+- [Buy me Coffee 😉](https://www.paypal.com/donate?hosted_button_id=BM99ZF52TE97E) - You can make one-time donations via PayPal. I'll probably buy coffee :coffee:
+
+Thanks! :heart:
+
+Contributions are welcome! 🎉
+
+Made with :heart: by [Norman Nuthu](https://github.com/GypsyTheDj)
