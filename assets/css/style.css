@@ -251,21 +251,6 @@ footer .icon:hover {
 
 /*-----------MEDIA QUERIES----------*/
 
-@media (max-width: 768px) {
-  .norman {
-    height: 400px;
-    width: 300px;
-  }
-}
-
-@media (max-width: 992px) {
-  #work,
-  #contact,
-  #header {
-    background-attachment: scroll;
-  }
-}
-
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   body {
     background: #999;
