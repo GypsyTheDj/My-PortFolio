@@ -1,6 +1,11 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/091e3283-acbf-4f4b-801e-388d938d7e7e/deploy-status)](https://app.netlify.com/sites/normannuthu/deploys)
 
-# Norman Nuthu Portfolio
+<h1 align="center"> Norman's PortFolio </h1>
+<div align="center">
+  
+  <img src="https://github.com/GypsyTheDj/My-PortFolio/blob/master/assets/images/myportfoliogif.gif">
+  
+</div>
 
 Stream One Project: User-Centric Frontend Development - Andela Kenya
 
