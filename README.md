@@ -1,4 +1,7 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/091e3283-acbf-4f4b-801e-388d938d7e7e/deploy-status)](https://app.netlify.com/sites/normannuthu/deploys)
+[![GitHub license](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](https://github.com/GypsyTheDj/My-PortFolio/blob/master/LICENSE.txt)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/GypsyTheDj/My-PortFolio/pulls)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/GypsyTheDj)
 
 <h1 align="center"> Norman's PortFolio </h1>
 <div align="center">
