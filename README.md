@@ -6,6 +6,8 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/GypsyTheDj/My-PortFolio/pulls)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/GypsyTheDj)
 
+I like building awesome software. I've built websites, browser plugins, corporate software and Android Applications! If you are interested, you can view some of my favorite projects in [my portfolio](https://normannuthu.netlify.app). Need something built or simply want to have chat? Reach out to me on social media or <a href="mailto:norman.strathmore@gmail.com?subject=Mail from your Portfolio">Send me an Email</a>.
+
   <img src="https://github.com/GypsyTheDj/My-PortFolio/blob/master/assets/images/myportfoliogif.gif">
   
 </div>
